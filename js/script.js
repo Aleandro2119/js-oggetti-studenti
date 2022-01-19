@@ -19,3 +19,12 @@ const student = {
     età: 19,
 }
 
+
+// ! PUNTO 2
+
+const resultElement = document.getElementById('student');
+
+for (let key in student) {
+    console.log(key);
+}
+
