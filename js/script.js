@@ -22,7 +22,7 @@ const student = {
 
 // ! PUNTO 2
 
-const resultElement = document.getElementById('student');
+
 
 for (let key in student) {
     console.log(key);
@@ -45,4 +45,12 @@ for (let j = 0; j < students.length; j++) {
 }
 
 
+// ! PUNTO 5
 
+const AddStudentName = prompt('Inserisci il nome');
+const AddStudentSurname = prompt('Inserisci il cognome');
+const AddStudentAge = prompt('Inserisci età');
+
+const AddStudent = { nome: AddStudentName, cognome: AddStudentSurname, eta: AddStudentAge };
+students.push(AddStudent);
+console.log(students);
