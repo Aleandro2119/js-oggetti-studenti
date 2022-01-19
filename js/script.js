@@ -36,3 +36,13 @@ const students = [
     { nome: 'Davide', cognome: 'Verdi', età: '27' },
 ]
 
+// ! PUNTO 4
+
+for (let j = 0; j < students.length; j++) {
+    const currentStudent = students[j];
+    console.log(currentStudent.nome);
+    console.log(currentStudent.cognome);
+}
+
+
+
