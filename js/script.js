@@ -9,3 +9,14 @@
 
     BONUS:
 Usiamo il DOM per stampare e chiedere le informazioni all'utente! */
+
+
+// ! PUNTO 1
+
+const student = {
+    nome: 'Aleandro',
+    cognome: 'Basilico',
+    età: 19,
+}
+
+console.log(student);
