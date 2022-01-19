@@ -28,3 +28,11 @@ for (let key in student) {
     console.log(key);
 }
 
+// ! PUNTO 3
+
+const students = [
+    { nome: 'Matteo', cognome: 'Bianchi', età: '22' },
+    { nome: 'Francesco', cognome: 'Rossi', età: '30' },
+    { nome: 'Davide', cognome: 'Verdi', età: '27' },
+]
+
