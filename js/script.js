@@ -19,4 +19,3 @@ const student = {
     età: 19,
 }
 
-console.log(student);
